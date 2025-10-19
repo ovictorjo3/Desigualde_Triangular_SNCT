@@ -1,6 +1,8 @@
 \documentclass[12pt]{beamer}
 \usetheme{Madrid}
 \usecolortheme{default}
+\definecolor{meuazul}{RGB}{36, 150, 200}
+\setbeamercolor{structure}{fg=meuazul}
 
 \usepackage{ragged2e}
 \usepackage[utf8]{inputenc}
@@ -16,19 +18,22 @@
 \setbeamercovered{transparent} 
 \setbeamertemplate{navigation symbols}{}
 \usepackage[table,xcdraw]{xcolor}
+\usepackage{ragged2e}
 
 
 \addtobeamertemplate{block alerted}{}{\justifying}
 
 \author[Prof. Fábio Rivas \& Joao Victor]{% 
 Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
-\title{Triângulos, Ruas e Macarrão: o sabor da desigualdade (triangular)}
+\title[Triângulos, ruas e macarrão]{Triângulos, ruas e macarrão: o sabor da desigualdade (triangular)}
 \institute[]{% 
   \textsuperscript{1} Professor \\
-  \textsuperscript{2} Discente, Licenciatura em Matematica
+  \textsuperscript{2} Discente, Licenciatura em Matemática
 }
-\date{\today} 
+
 \titlegraphic{\includegraphics[width=0.2\textwidth]{imagens/logo_3.jpg}}
+\date{\today} 
+
 
 %\subject{}
 
@@ -46,7 +51,6 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
     \tableofcontents
 \end{frame}
 
-
 \section{Desigualdade}
 
     \begin{frame}{Desigualdade}
@@ -54,15 +58,15 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
         \justifying
         
             \textbf{(1)} Atributo de pessoas ou coisas distintas; dessemelhança, diferença.\\
-            \textbf{(2)} Falta de equilíbrio; disparidade, distância.\\
-            \textbf{(3)} Comparação de duas quantidades desiguais, em uma expressão matemática, através de sinais (maior, menor, diferente). \\
+            \uncover<2->{\textbf{(2)} Falta de equilíbrio; disparidade, distância.}\\
+            \uncover<3->{\textbf{(3)} Comparação de duas quantidades desiguais, em uma expressão matemática, através de sinais (maior, menor, diferente).} \\
         \end{alertblock}
 
-        \pause
+        \uncover<4->{
 
         \begin{block}{Aplicação}
             Joao, um amante de pizza, decidiu fazer um rolé gastronômico por Manaus para encontrar a MELHOR pizza de frango com catupiry da cidade!
-        \end{block}
+        \end{block}}
 
         
     \end{frame}
@@ -74,15 +78,16 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
        
             \textbf{Pizzaria A - Ingredientes}
 
-            \begin{enumerate}
-                \item 300g de frango temperado
-                \item 200g de catupiry cremoso
-                \item 150g de molho de tomate caseiro
-                \item 100g de mussarela derretida
-                \item 50g de milho verde
-                \item 30g de azeitonas pretas
-                \item 20g de orégano fresco
-            \end{enumerate}
+            \begin{itemize}
+                \item [1.] 300g de frango temperado
+                \item [2.] 200g de catupiry cremoso
+                \item [3.] 150g de molho de tomate caseiro
+                \item [4.] 100g de mussarela derretida
+                \item [5.] 50g de milho verde
+                \item [6.] 30g de azeitonas pretas
+                \item [7.] 20g de orégano fresco
+            \end{itemize}
+            
         \end{column}
 
         \begin{column}{0.4\textwidth}
@@ -100,15 +105,15 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
        
             \textbf{Pizzaria B - Ingredientes}
 
-            \begin{enumerate}
-                \item 250g de frango temperado
-                \item 250g de catupiry cremoso
-                \item 120g de molho de tomate caseiro
-                \item 120g de mussarela derretida
-                \item 40g de milho verde
-                \item 30g de azeitonas pretas
-                \item 25g de orégano fresco
-            \end{enumerate}
+            \begin{itemize}
+                \item [1.] 250g de frango temperado
+                \item [2.] 250g de catupiry cremoso
+                \item [3.] 120g de molho de tomate caseiro
+                \item [4.] 120g de mussarela derretida
+                \item [5.] 40g de milho verde
+                \item [6.] 30g de azeitonas pretas
+                \item [7.] 25g de orégano fresco
+            \end{itemize}
         \end{column}
 
         \begin{column}{0.4\textwidth}
@@ -148,8 +153,8 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
         \begin{alertblock}{Definição}
         \justifying
             \textbf{(1)} Polígono de três lados; trilátero.\\
-            \textbf{(2)} Qualquer objeto que tenha formato triangular.\\
-            \textit{\textbf{(3)} Dados três pontos, A, B e C, não colineares, à reunião dos segmentos $\overline{AB}$, $\overline{AC}$ e $\overline{BC}$, chama-se \textbf{triângulo ABC} (Fundamento de Matemática Elementar, volume 9)}\\
+            \uncover<2->{\textbf{(2)} Qualquer objeto que tenha formato triangular.}\\
+            \uncover<3->{\textit{\textbf{(3)} Dados três pontos, A, B e C, não colineares, à reunião dos segmentos $\overline{AB}$, $\overline{BC}$ e $\overline{AC}$, chama-se \textbf{triângulo ABC} (Fundamentos de Matemática Elementar, volume 9)}}\\
         \end{alertblock}
     \end{frame}
 
@@ -180,11 +185,12 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 
     \begin{frame}{Aplicação em sala}
         \begin{minipage}{\textwidth}
+       
         \centering
             \fbox{\begin{minipage}{0.9\textwidth}
             \vspace{0.3cm}
             \footnotesize
-
+            
                 \textbf{Como usar:} \\
                 1. Escolha 3 palitos e meça seus comprimentos (cada palito = 1 unidade) \\
                 2. Anote os valores como a, b, c na tabela \\
@@ -229,44 +235,59 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 \section{Problema, probleminhas e \textit{problemão} (OBMEP)}
 
 \begin{frame}{Problema de Gincana: Isso não é perímetro}
+\begin{exampleblock}{\textbf{Desafio 01.}}
     Se $\overline{AB}+\overline{BC}=18$, então o perímetro do triângulo $ABC$ \textbf{NÃO} pode ser:
 
-    \begin{enumerate}[a]
-    	\item 33
-    	\item 34 
-        \item 35
-        \item 36 
-        \item Nenhuma das respostas anteriores
-    \end{enumerate}
+    \begin{itemize}
+        \item [a)] 33
+        \item [b)] 34
+        \item [c)] 35
+        \item [d)] 36
+        \item [e)] Nenhuma das respostas anteriores
+    \end{itemize}
+\end{exampleblock}
+    
 \end{frame}
 
-
-
 \begin{frame}{Probleminha: Brincando com lápis}
-    Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
+
+    \begin{exampleblock}{\textbf{Desafio 02.}}
+        \justifying
+        Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
 
     \vspace{2mm} 
 
     Determine para que comprimentos do terceiro lápis Ana Paula conseguirá formar um triângulo.
-    
+    \end{exampleblock}
+   
 \end{frame}
 
 \begin{frame}{Probleminha: Quem andou mais?}
 
-    Ruas retas e compridas ligam as casas dos amigos Bruno, Francimar e Robério.
+    \begin{exampleblock}{\textbf{Desafio 03.}}
+        Ruas retas e compridas ligam as casas dos amigos Bruno, Francimar e Robério.
 
-    \begin{itemize}
+    \begin{itemize}\justifying
         \item Francimar, em sua caminhada matinal, saiu de sua casa e andou até a casa de Bruno. Em seguida, prosseguiu para a casa de Robério e depois voltou para sua casa.
         \item Mais tarde, Robério, muito concentrado com um problema de matemática, foi até a casa de Bruno e voltou para sua casa.
     \end{itemize} Sem conhecer as distâncias entre as casas, é possível saber quem andou mais?
+    
+    \end{exampleblock}
+
 \end{frame}
 
 \begin{frame}{Problemão: Probabilidade com macarrão}
-    Quebrando aleatoriamente um macarrão, de tamanho qualquer, em três partes, qual a probabilidade de que elas possam formar um triângulo?
 
-    \begin{center}
-        \includegraphics[scale=0.3]{imagens/macarrao.png}
-    \end{center}
+    \begin{exampleblock}{\textbf{Desafio 04.}}
+        \justifying
+        Quebrando aleatoriamente um macarrão, de tamanho qualquer, em três partes, qual a probabilidade de que elas possam formar um triângulo?
+
+        \begin{center}
+            \includegraphics[scale=0.3]{imagens/macarrao_rmvbg.png}
+        \end{center}
+    
+    \end{exampleblock}
+   
 \end{frame}
 
 
