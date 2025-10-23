@@ -49,20 +49,8 @@
 \headcommand {\beamer@framepages {23}{23}}
 \headcommand {\slideentry {5}{0}{7}{24/24}{}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@sectionpages {18}{24}}
+\headcommand {\beamer@partpages {1}{24}}
 \headcommand {\beamer@subsectionpages {18}{24}}
-\headcommand {\sectionentry {6}{Gabarito}{25}{Gabarito}{0}}
-\headcommand {\slideentry {6}{0}{1}{25/25}{}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {6}{0}{2}{26/26}{}{0}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@sectionpages {25}{26}}
-\headcommand {\beamer@subsectionpages {25}{26}}
-\headcommand {\sectionentry {7}{Referências}{27}{Referências}{0}}
-\headcommand {\slideentry {7}{0}{1}{27/27}{}{0}}
-\headcommand {\beamer@framepages {27}{27}}
-\headcommand {\beamer@partpages {1}{27}}
-\headcommand {\beamer@subsectionpages {27}{27}}
-\headcommand {\beamer@sectionpages {27}{27}}
-\headcommand {\beamer@documentpages {27}}
-\headcommand {\gdef \inserttotalframenumber {21}}
+\headcommand {\beamer@sectionpages {18}{24}}
+\headcommand {\beamer@documentpages {24}}
+\headcommand {\gdef \inserttotalframenumber {18}}
