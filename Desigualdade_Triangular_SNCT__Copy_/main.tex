@@ -1,4 +1,5 @@
 \documentclass[12pt]{beamer}
+\usepackage[table,xcdraw]{xcolor}
 \usetheme{Madrid}
 \usecolortheme{default}
 \definecolor{meuazul}{RGB}{36, 150, 200}
@@ -19,6 +20,12 @@
 \setbeamertemplate{navigation symbols}{}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{ragged2e}
+
+%referência e citação
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{ref.bib}
+
 
 
 \addtobeamertemplate{block alerted}{}{\justifying}
@@ -183,27 +190,29 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
     
 \section{Verificação: é triângulo?}
 
-    \begin{frame}{Aplicação em sala}
-        \begin{minipage}{\textwidth}
-       
+    \begin{frame}{Probabilidade Geométrica - Problema do macarrão}
+    \begin{minipage}{\textwidth}
         \centering
-            \fbox{\begin{minipage}{0.9\textwidth}
+        \fbox{\begin{minipage}{0.9\textwidth}
             \vspace{0.3cm}
             \footnotesize
             
-                \textbf{Como usar:} \\
-                1. Escolha 3 palitos e meça seus comprimentos (cada palito = 1 unidade) \\
-                2. Anote os valores como a, b, c na tabela \\
-                3. Teste cada desigualdade (marque \checkmark\ para Verdadeiro ou $\times$ para Falso) \\
-                4. Tente FORMAR o triângulo com os palitos escolhidos \\
-                5. Se \textbf{TODAS} as desigualdades forem verdadeiras $\rightarrow$ forma triângulo! \\
-                6. Se \textbf{ALGUMA} for falsa $\rightarrow$ não forma triângulo! \\
-                \textbf{Regra da Desigualdade Triangular:} \\
-                Para formar triângulo: $a + b > c$ \textbf{e} $a + c > b$ \textbf{e} $b + c > a$
-                \vspace{0.3cm}
-            \end{minipage}}
-        \end{minipage}
-    \end{frame}
+            \textbf{O grande desafio:} \\
+            1. Pegue UM fio de espaguete \\
+            2. QUEBRE-EM em 3 partes \textbf{arbitrariamente} \\
+            3. Meça os comprimentos \textbf{a, b, c} \\
+            4. Teste as desigualdades (marque \checkmark\ ou $\times$) \\
+            5. Agora tente FORMAR o triângulo \\
+            6. Se \textbf{TODAS} as desigualdades forem verdadeiras $\rightarrow$ triângulo possível! \\
+            7. Se \textbf{UMA} for falsa $\rightarrow$ triângulo impossível! \\
+            
+            \textbf{Consegue prever antes de tentar montar?} \\
+            \textbf{Regra da Desigualdade Triangular:} \\
+            $a + b > c$ \textbf{e} $a + c > b$ \textbf{e} $b + c > a$
+            \vspace{0.3cm}
+        \end{minipage}}
+    \end{minipage}
+\end{frame}
 
     \begin{frame}{Aplicação em sala}
         \begin{table}[h]
@@ -234,37 +243,12 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 
 \section{Problema, probleminhas e \textit{problemão} (OBMEP)}
 
-\begin{frame}{Problema de Gincana: Isso não é perímetro}
-\begin{exampleblock}{\textbf{Desafio 01.}}
-    Se $\overline{AB}+\overline{BC}=18$, então o perímetro do triângulo $ABC$ \textbf{NÃO} pode ser:
 
-    \begin{itemize}
-        \item [a)] 33
-        \item [b)] 34
-        \item [c)] 35
-        \item [d)] 36
-        \item [e)] Nenhuma das respostas anteriores
-    \end{itemize}
-\end{exampleblock}
-    
-\end{frame}
 
-\begin{frame}{Probleminha: Brincando com lápis}
-
-    \begin{exampleblock}{\textbf{Desafio 02.}}
-        \justifying
-        Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
-
-    \vspace{2mm} 
-
-    Determine para que comprimentos do terceiro lápis Ana Paula conseguirá formar um triângulo.
-    \end{exampleblock}
-   
-\end{frame}
 
 \begin{frame}{Probleminha: Quem andou mais?}
 
-    \begin{exampleblock}{\textbf{Desafio 03.}}
+    \begin{exampleblock}{\textbf{Desafio 01.}}
         Ruas retas e compridas ligam as casas dos amigos Bruno, Francimar e Robério.
 
     \begin{itemize}\justifying
@@ -276,9 +260,55 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 
 \end{frame}
 
-\begin{frame}{Problemão: Probabilidade com macarrão}
+\begin{frame}{Probleminha: Brincando com lápis}
+	
+	\begin{exampleblock}{\textbf{Desafio 02.}}
+		\justifying
+		Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
+		
+		\vspace{2mm} 
+		
+		Determine para que comprimentos do terceiro lápis Ana Paula conseguirá formar um triângulo.
+	\end{exampleblock}
+	
+\end{frame}
+
+\begin{frame}{Problema de Gincana: Isso não é perímetro}
+	\begin{exampleblock}{\textbf{Desafio 03.}}
+		Se $\overline{AB}+\overline{BC}=18$, então o perímetro do triângulo $ABC$ \textbf{NÃO} pode ser:
+		
+		\begin{itemize}
+			\item [a)] 33
+			\item [b)] 34
+			\item [c)] 35
+			\item [d)] 36
+			\item [e)] Nenhuma das respostas anteriores
+		\end{itemize}
+	\end{exampleblock}
+	
+\end{frame}
+
+
+\begin{frame}{Unicamp - 2024}
 
     \begin{exampleblock}{\textbf{Desafio 04.}}
+        \justifying
+        Joaquim estava brincando com um graveto, quando acertou uma parede e o graveto se partiu em três pedaços, de comprimentos a, b, c, com $a \leq b \leq c$. Ele recolheu os pedaços e tentou construir um triângulo cujos lados seriam exatamente os pedaços do graveto: \textbf{não foi possível}. Sabendo que o graveto tinha $50\ cm$ de comprimento e que $b = a + 2$, qual é o maior valor possível de a?
+
+        \begin{itemize}
+        \item [a)] 9,5 cm
+        \item [b)] 10,5 cm
+        \item [c)] 11,5 cm %
+        \item [d)] 12,5 cm
+    \end{itemize}
+
+    \end{exampleblock}
+   
+\end{frame}
+
+\begin{frame}{Problemão: Probabilidade com macarrão}
+
+    \begin{exampleblock}{\textbf{Desafio 05.}}
         \justifying
         Quebrando aleatoriamente um macarrão, de tamanho qualquer, em três partes, qual a probabilidade de que elas possam formar um triângulo?
 
@@ -291,13 +321,30 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 \end{frame}
 
 
-
-
-\section{Referências}
+\begin{frame}{Referências}
+	\justifying
+	\begin{itemize}
+		\item Clube de Matemática da OBMEP. \textbf{Probleminha: Quem andou mais?}. Disponível em: $<\href{https://clubes.obmep.org.br/blog/problema-quem-andou-mais/}{Desafio\  01.}>$
+		
+		\item Clube de Matemática da OBMEP. \textbf{Probleminha: Brincando com lápis}. Disponível em: $<\href{https://clubes.obmep.org.br/blog/probleminha-brincando-com-lapis/}{Desafio\  02}>$
+		
+		\item Clube de Matemática da OBMEP. \textbf{Problema de Gincana: Isso não é perímetro}. Disponível em: $<\href{https://clubes.obmep.org.br/blog/problema-de-gincana-isso-nao-e-perimetro/}{Desafio\  03}>$
+		
+		\item Elite Resolve. \textbf{Unicamp}. Disponível em: $<\href{https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=10200}{Desafio\ 04}>$
+		
+		\item Clube de Matemática da OBMEP. \textbf{Problemão: Probabilidade com macarrão}. Disponível em: $<\href{https://clubes.obmep.org.br/blog/problemao-probabilidade-com-macarrao/}{Desafio\  05.}>$
+	\end{itemize}
+\end{frame}
 
 \begin{frame}{Referências}
+	\justifying
+	\begin{itemize}
+		\item Michaelis On-line. \textbf{Michaelis}. Disponível em: $<\href{https://michaelis.uol.com.br/}{Michaelis\ On-line}>$
+		
+		\item DOLCE, O.; POMPEO, JOSÉ NICOLAU. \textbf{Fundamentos de Matemática Elementar, volume 9}. Disponível em: $<\href{https://barbosadejesu.wordpress.com/wp-content/uploads/2021/09/fundamentos-da-matematica-elementar-9.pdf}{FME\  9}>$
+		
 	
-
+	\end{itemize}
 \end{frame}
 
 \end{document}
