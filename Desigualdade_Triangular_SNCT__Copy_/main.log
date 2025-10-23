@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.1)  23 OCT 2025 00:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.1)  23 OCT 2025 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,7 +1232,7 @@ ut line 55.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<imagens/logo_3.jpg, id=51, 390.45876pt x 390.45876pt>
+<imagens/logo_3.jpg, id=55, 390.45876pt x 390.45876pt>
 File: imagens/logo_3.jpg Graphic file (type jpg)
 <use imagens/logo_3.jpg>
 Package pdftex.def Info: imagens/logo_3.jpg  used on input line 55.
@@ -1256,7 +1256,7 @@ dvips/cm-super/cm-super-t1.enc} <./imagens/logo_3.jpg>] (./main.toc) [2
 ] [6
 
 ]
-<imagens/pizza_1.png, id=197, 955.57pt x 972.63374pt>
+<imagens/pizza_1.png, id=202, 955.57pt x 972.63374pt>
 File: imagens/pizza_1.png Graphic file (type png)
 <use imagens/pizza_1.png>
 Package pdftex.def Info: imagens/pizza_1.png  used on input line 106.
@@ -1279,7 +1279,7 @@ Package pdftex.def Info: imagens/pizza_1.png  used on input line 132.
 ] [12
 
 ]
-<imagens/triangulos.png, id=274, 657.45625pt x 263.98625pt>
+<imagens/triangulos.png, id=279, 657.45625pt x 263.98625pt>
 File: imagens/triangulos.png Graphic file (type png)
 <use imagens/triangulos.png>
 Package pdftex.def Info: imagens/triangulos.png  used on input line 174.
@@ -1317,7 +1317,7 @@ Overfull \vbox (1.01784pt too high) detected at line 305
 [21
 
 ]
-<imagens/macarrao_rmvbg.png, id=442, 564.1075pt x 436.63126pt>
+<imagens/macarrao_rmvbg.png, id=447, 564.1075pt x 436.63126pt>
 File: imagens/macarrao_rmvbg.png Graphic file (type png)
 <use imagens/macarrao_rmvbg.png>
 Package pdftex.def Info: imagens/macarrao_rmvbg.png  used on input line 319.
@@ -1331,7 +1331,7 @@ Overfull \vbox (3.46672pt too high) detected at line 319
  <./imagens/macarrao_rmvbg.png>] [23
 
 ]
-<imagens/solucao_desafio5.png, id=482, 538.01pt x 437.635pt>
+<imagens/solucao_desafio5.png, id=487, 538.01pt x 437.635pt>
 File: imagens/solucao_desafio5.png Graphic file (type png)
 <use imagens/solucao_desafio5.png>
 Package pdftex.def Info: imagens/solucao_desafio5.png  used on input line 338.
@@ -1368,7 +1368,7 @@ L3 programming layer <2024-01-22>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 397EDA8E201AEDACE9EE70298A14C03F;898.
+(rerunfilecheck)             Checksum: C3B0653AC3475C8F86E2161F62B3B8F6;999.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1379,10 +1379,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30445 strings out of 474222
- 594000 string characters out of 5748734
+ 30450 strings out of 474222
+ 594046 string characters out of 5748734
  1945975 words of memory out of 5000000
- 52079 multiletter control sequences out of 15000+600000
+ 52083 multiletter control sequences out of 15000+600000
  582385 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,677b,2211s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1404,10 +1404,10 @@ uper/sfss1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfsx1440.pfb>
-Output written on main.pdf (27 pages, 1545530 bytes).
+Output written on main.pdf (27 pages, 1545772 bytes).
 PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
- 61 named destinations out of 1000 (max. 500000)
- 890 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 898 words of extra memory for PDF output out of 10000 (max. 10000000)
 

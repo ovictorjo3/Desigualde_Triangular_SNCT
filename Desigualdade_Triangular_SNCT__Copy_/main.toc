@@ -5,3 +5,4 @@
 \beamer@sectionintoc {4}{Verificação: é triângulo?}{16}{0}{4}
 \beamer@sectionintoc {5}{Problema, probleminhas e \textit {problemão} (OBMEP)}{18}{0}{5}
 \beamer@sectionintoc {6}{Gabarito}{25}{0}{6}
+\beamer@sectionintoc {7}{Referências}{27}{0}{7}
