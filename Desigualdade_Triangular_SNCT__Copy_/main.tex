@@ -21,24 +21,24 @@
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{ragged2e}
 
-%referência e citação
+\usepackage[style=alphabetic]{biblatex}
 
-\usepackage[backend=biber]{biblatex}
-\addbibresource{ref.bib}
+
 
 
 
 \addtobeamertemplate{block alerted}{}{\justifying}
 
-\author[Prof. Fábio Rivas \& Joao Victor]{% 
-Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
+\author[Prof. Rivas \& Joao Victor]{% 
+Prof. Rivas\inst{1} \and Joao Victor\inst{2} \and Jamily Lima\inst{3}}
 \title[Triângulos, ruas e macarrão]{Triângulos, ruas e macarrão: o sabor da desigualdade (triangular)}
 \institute[]{% 
-  \textsuperscript{1} Professor \\
-  \textsuperscript{2} Discente, Licenciatura em Matemática
+  \textsuperscript{1} Orientador \\
+  \textsuperscript{2} Licenciatura em Matemática (3º Período) \\
+  \textsuperscript{3} Licenciatura em Matemática (1º Período) 
 }
 
-\titlegraphic{\includegraphics[width=0.2\textwidth]{imagens/logo_3.jpg}}
+\titlegraphic{\includegraphics[width=0.36\textwidth]{imagens/logo_5.png}}
 \date{\today} 
 
 
@@ -161,7 +161,7 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
         \justifying
             \textbf{(1)} Polígono de três lados; trilátero.\\
             \uncover<2->{\textbf{(2)} Qualquer objeto que tenha formato triangular.}\\
-            \uncover<3->{\textit{\textbf{(3)} Dados três pontos, A, B e C, não colineares, à reunião dos segmentos $\overline{AB}$, $\overline{BC}$ e $\overline{AC}$, chama-se \textbf{triângulo ABC} (Fundamentos de Matemática Elementar, volume 9)}}\\
+            \uncover<3->{\textit{\textbf{(3)} Dados três pontos, A, B e C, não colineares, à reunião dos segmentos $\overline{AB}$, $\overline{BC}$ e $\overline{AC}$, chama-se \textbf{triângulo ABC}}}\\
         \end{alertblock}
     \end{frame}
 
@@ -186,6 +186,33 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
             Existe triângulo cujos lados medem 5, 8 e 16? Por quê?
         \end{block}
 
+    \end{frame}
+    
+    \begin{frame}{Aplicação em sala}
+    	\begin{table}[h]
+    		\centering
+    		\small
+    		\setlength{\tabcolsep}{8pt}
+    		\renewcommand{\arraystretch}{1.5}
+    		
+    		\begin{tabular}{|c|c|c||c|c|c||c|}
+    			\hline
+    			\textbf{a} & \textbf{b} & \textbf{c} & \textbf{a + b > c} & \textbf{a + c > b} & \textbf{b + c > a} & \textbf{Triângulo?} \\
+    			\hline
+    			& & & $\square$ & $\square$ & $\square$ & \\
+    			\hline
+    			& & & $\square$ & $\square$ & $\square$ & \\
+    			\hline
+    			& & & $\square$ & $\square$ & $\square$ & \\
+    			\hline
+    			& & & $\square$ & $\square$ & $\square$ & \\
+    			\hline
+    			& & & $\square$ & $\square$ & $\square$ & \\
+    			\hline
+    			& & & $\square$ & $\square$ & $\square$ & \\
+    			\hline
+    		\end{tabular}
+    	\end{table}
     \end{frame}
     
 \section{Verificação: é triângulo?}
@@ -214,35 +241,7 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
     \end{minipage}
 \end{frame}
 
-    \begin{frame}{Aplicação em sala}
-        \begin{table}[h]
-        \centering
-        \small
-        \setlength{\tabcolsep}{8pt}
-        \renewcommand{\arraystretch}{1.5}
-
-            \begin{tabular}{|c|c|c||c|c|c||c|}
-                \hline
-                \textbf{a} & \textbf{b} & \textbf{c} & \textbf{a + b > c} & \textbf{a + c > b} & \textbf{b + c > a} & \textbf{Triângulo?} \\
-                \hline
-                & & & $\square$ & $\square$ & $\square$ & \\
-                \hline
-                & & & $\square$ & $\square$ & $\square$ & \\
-                \hline
-                & & & $\square$ & $\square$ & $\square$ & \\
-                \hline
-                & & & $\square$ & $\square$ & $\square$ & \\
-                \hline
-                & & & $\square$ & $\square$ & $\square$ & \\
-                \hline
-                & & & $\square$ & $\square$ & $\square$ & \\
-                \hline
-            \end{tabular}
-        \end{table}
-    \end{frame}
-
 \section{Problema, probleminhas e \textit{problemão} (OBMEP)}
-
 
 \begin{frame}{Probleminha: Quem andou mais?}
 
@@ -259,33 +258,32 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 \end{frame}
 
 \begin{frame}{Probleminha: Brincando com lápis}
-	
-	\begin{exampleblock}{\textbf{Desafio 02.}}
-		\justifying
-		Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
-		
-		\vspace{2mm} 
-		
-		Determine para que comprimentos do terceiro lápis Ana Paula conseguirá formar um triângulo.
-	\end{exampleblock}
-	
+
+    \begin{exampleblock}{\textbf{Desafio 02.}}
+        \justifying
+        Ana Paula tinha 2 lápis em mãos, cujos comprimentos eram de 5,8 cm e 11,4 cm, respectivamente. Com esses 2 lápis e um terceiro, entre os que tinha em seu estojo, ela começou a formar triângulos que tivessem os seus lápis como lados. Logo ela percebeu que com alguns dos lápis do estojo não era possível formar um triângulo. 
+
+    \vspace{2mm} 
+
+    Determine para que comprimentos do terceiro lápis Ana Paula conseguirá formar um triângulo.
+    \end{exampleblock}
+   
 \end{frame}
 
 \begin{frame}{Problema de Gincana: Isso não é perímetro}
-	\begin{exampleblock}{\textbf{Desafio 03.}}
-		Se $\overline{AB}+\overline{BC}=18$, então o perímetro do triângulo $ABC$ \textbf{NÃO} pode ser:
-		
-		\begin{itemize}
-			\item [a)] 33
-			\item [b)] 34
-			\item [c)] 35
-			\item [d)] 36
-			\item [e)] Nenhuma das respostas anteriores
-		\end{itemize}
-	\end{exampleblock}
-	
-\end{frame}
+\begin{exampleblock}{\textbf{Desafio 03.}}
+    Se $\overline{AB}+\overline{BC}=18$, então o perímetro do triângulo $ABC$ \textbf{NÃO} pode ser:
 
+    \begin{itemize}
+        \item [a)] 33
+        \item [b)] 34
+        \item [c)] 35
+        \item [d)] 36
+        \item [e)] Nenhuma das respostas anteriores
+    \end{itemize}
+\end{exampleblock}
+    
+\end{frame}
 
 \begin{frame}{Unicamp - 2024}
 
@@ -299,7 +297,6 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
         \item [c)] 11,5 cm %
         \item [d)] 12,5 cm
     \end{itemize}
-
     \end{exampleblock}
    
 \end{frame}
@@ -308,7 +305,7 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
 
     \begin{exampleblock}{\textbf{Desafio 05.}}
         \justifying
-        Quebrando aleatoriamente um macarrão, de tamanho qualquer, em três partes, qual a probabilidade de que elas possam formar um triângulo?
+        Quebrando aleatoriamente um macarrão, de tamanho qualquer, em três partes, qual a probabilidade de que elas possam formar um triângulo? 
 
         \begin{center}
             \includegraphics[scale=0.3]{imagens/macarrao_rmvbg.png}
@@ -318,73 +315,15 @@ Fábio Rivas\inst{1} \and Joao Victor\inst{2}}
    
 \end{frame}
 
-\begin{frame}{Probabilidade Geométrica}
-	\begin{alertblock}{Definição}
-		\justifying
-		Considere uma região B contida em uma região A do plano. Admitamos que a probabilidade de que um ponto escolhido aleatoriamente em A também pertença à região B é proporcional à área de B e não dependa da posição que B ocupa em A. Essa probabilidade é:
-		
-		\begin{center}
-			P = (área de B) / (área de A)
-		\end{center} 
-	\end{alertblock}
-\end{frame}
-
-\begin{frame}{Interpretação - Desafio 5}
-	O par ordenado (x,y) que contém as variáveis satisfazendo nossas condições de interesse pertence à região azul indicada abaixo.
-	
-	\begin{center}
-		\includegraphics[scale=0.4]{imagens/solucao_desafio5}
-	\end{center}
-\end{frame}
-
-
-\section{Gabarito}
-
-\begin{frame}{Gabarito - Desafios}
-	\begin{enumerate}
-		\item Desafio 01. Francimar andou pelo menos tanto quanto Robério, e possivelmente mais.
-		
-		\item Desafio 02. $5,6\ cm < c < 17,2\ cm$
-		
-		\item Desafio 03. o perímetro do triângulo \textit{ABC} \textbf{não} pode ser 36.
-		
-		\item Desafio 04. $11,5\ $cm
-		
-		\item Desafio 05. ${1}/{4}$
-	\end{enumerate}
-\end{frame}
-
-
-
-\begin{frame}{Referências}
-	\justifying
-	\begin{itemize}
-		\item Clube de Matemática da OBMEP. \textbf{Probleminha: Quem andou mais?}. Disponível em: <\href{https://clubes.obmep.org.br/blog/problema-quem-andou-mais/}{Desafio\  01.}>
-		
-		\item Clube de Matemática da OBMEP. \textbf{Probleminha: Brincando com lápis}. Disponível em: <\href{https://clubes.obmep.org.br/blog/probleminha-brincando-com-lapis/}{Desafio\  02}>
-		
-		\item Clube de Matemática da OBMEP. \textbf{Problema de Gincana: Isso não é perímetro}. Disponível em: <\href{https://clubes.obmep.org.br/blog/problema-de-gincana-isso-nao-e-perimetro/}{Desafio\  03}>
-		
-		\item Elite Resolve. \textbf{Unicamp}. Disponível em: <\href{https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=10200}{Desafio\ 04}>
-		
-		\item Clube de Matemática da OBMEP. \textbf{Problemão: Probabilidade com macarrão}. Disponível em: <\href{https://clubes.obmep.org.br/blog/problemao-probabilidade-com-macarrao/}{Desafio\  05.}>
-	\end{itemize}
-\end{frame}
-
 \section{Referências}
 
 \begin{frame}{Referências}
-	\justifying
-	\begin{itemize}
-		\item Michaelis On-line. \textbf{Michaelis}. Disponível em: <\href{https://michaelis.uol.com.br/}{Michaelis\ On-line}>
+	\begin{thebibliography}{99}
+		\justifying
 		
-		\item DOLCE, O.; POMPEO, JOSÉ NICOLAU. \textbf{Fundamentos de Matemática Elementar, volume 9}. Disponível em: <\href{https://barbosadejesu.wordpress.com/wp-content/uploads/2021/09/fundamentos-da-matematica-elementar-9.pdf}{FME\  9}>
+		\bibitem{dolce} DOLCE, O.; POMPEO, J. N. Fundamentos...
 		
-		\item Wagner, E.; \textbf{Probabilidade Geométrica: O problema do macarrão e um paradoxo famoso}. Disponível em: <\href{https://rpm.org.br/cdrpm/34/6.htm}{Revista\ do\ Professor\ de\ Matem\'atica}>
-		
-		
-	
-	\end{itemize}
+	\end{thebibliography}
 \end{frame}
 
 \end{document}

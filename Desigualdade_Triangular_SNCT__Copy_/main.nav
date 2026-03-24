@@ -25,15 +25,15 @@
 \headcommand {\sectionentry {3}{Desigualdade Triangular}{14}{Desigualdade Triangular}{0}}
 \headcommand {\slideentry {3}{0}{1}{14/15}{}{0}}
 \headcommand {\beamer@framepages {14}{15}}
-\headcommand {\beamer@sectionpages {14}{15}}
-\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\sectionentry {4}{Verificação: é triângulo?}{16}{Verificação: é triângulo?}{0}}
-\headcommand {\slideentry {4}{0}{1}{16/16}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {4}{0}{2}{17/17}{}{0}}
+\headcommand {\beamer@sectionpages {14}{16}}
+\headcommand {\beamer@subsectionpages {14}{16}}
+\headcommand {\sectionentry {4}{Verificação: é triângulo?}{17}{Verificação: é triângulo?}{0}}
+\headcommand {\slideentry {4}{0}{1}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@sectionpages {16}{17}}
-\headcommand {\beamer@subsectionpages {16}{17}}
+\headcommand {\beamer@sectionpages {17}{17}}
+\headcommand {\beamer@subsectionpages {17}{17}}
 \headcommand {\sectionentry {5}{Problema, probleminhas e \textit {problemão} (OBMEP)}{18}{Problema, probleminhas e \textit {problemão} (OBMEP)}{0}}
 \headcommand {\slideentry {5}{0}{1}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
@@ -45,24 +45,13 @@
 \headcommand {\beamer@framepages {21}{21}}
 \headcommand {\slideentry {5}{0}{5}{22/22}{}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {5}{0}{6}{23/23}{}{0}}
+\headcommand {\beamer@sectionpages {18}{22}}
+\headcommand {\beamer@subsectionpages {18}{22}}
+\headcommand {\sectionentry {6}{Referências}{23}{Referências}{0}}
+\headcommand {\slideentry {6}{0}{1}{23/23}{}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {5}{0}{7}{24/24}{}{0}}
-\headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@sectionpages {18}{24}}
-\headcommand {\beamer@subsectionpages {18}{24}}
-\headcommand {\sectionentry {6}{Gabarito}{25}{Gabarito}{0}}
-\headcommand {\slideentry {6}{0}{1}{25/25}{}{0}}
-\headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {6}{0}{2}{26/26}{}{0}}
-\headcommand {\beamer@framepages {26}{26}}
-\headcommand {\beamer@sectionpages {25}{26}}
-\headcommand {\beamer@subsectionpages {25}{26}}
-\headcommand {\sectionentry {7}{Referências}{27}{Referências}{0}}
-\headcommand {\slideentry {7}{0}{1}{27/27}{}{0}}
-\headcommand {\beamer@framepages {27}{27}}
-\headcommand {\beamer@partpages {1}{27}}
-\headcommand {\beamer@subsectionpages {27}{27}}
-\headcommand {\beamer@sectionpages {27}{27}}
-\headcommand {\beamer@documentpages {27}}
-\headcommand {\gdef \inserttotalframenumber {21}}
+\headcommand {\beamer@partpages {1}{23}}
+\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\beamer@sectionpages {23}{23}}
+\headcommand {\beamer@documentpages {23}}
+\headcommand {\gdef \inserttotalframenumber {17}}
