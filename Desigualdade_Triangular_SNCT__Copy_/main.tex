@@ -20,7 +20,7 @@
 \setbeamertemplate{navigation symbols}{}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{ragged2e}
-
+\usepackage{subcaption}
 \usepackage[style=alphabetic]{biblatex}
 
 
@@ -315,13 +315,31 @@ Prof. Rivas\inst{1} \and Joao Victor\inst{2} \and Jamily Lima\inst{3}}
    
 \end{frame}
 
+\begin{frame}{Solução}
+	\begin{figure}[h]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{imagens/macarrao.jpg}
+			\caption{\justifying Macarrão de comprimento unitário}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.45\textwidth}
+			\centering
+			\includegraphics[width=\linewidth]{imagens/grafico.jpg}
+			\caption{Representação geométrica}
+		\end{subfigure}
+		\caption{\justifying Registros de Representação Semiótica de Raymond Duval}
+	\end{figure}
+\end{frame}
+
 \section*{Publicações}
 
 	\begin{frame}{Publicações}
 		\begin{block}{Manaus Conference in Mathematics - UFAM - Março/26}
 			\begin{itemize}
 				\justifying
-				\item Autores: Joao Victor, \textit{Jamily} e Prof. Rivas;
+				\item Autores: Joao Victor, Jamily$^{*}$ e Prof. Rivas;
 				\item Título: Implementação e Validação via Método de Monte Carlo da Probabilidade de Formação Triangular em Segmentos Unitários;
 				\item Modalidade: Pôster;
 				\item Considerações: Implementação e Validação da Probabilidade de formar triângulos, via método de Monte Carlo, em $25\%$ e que \textbf{os lados tendem à equilaridade}; 
@@ -358,7 +376,7 @@ Prof. Rivas\inst{1} \and Joao Victor\inst{2} \and Jamily Lima\inst{3}}
 			}
 			\begin{itemize}
 				\justifying
-				\item Autores: Joao Victor, Prof. Rivas e Prof. Antônio Lira;
+				\item Autores: Joao Victor, Prof. Rivas e Prof. Antônio Lira$^*$;
 				\item Título: CONVERSÃO ALGÉBRICO-VISUAL NO PROBLEMA DO MACARRÃO: REGISTROS SEMIÓTICOS COM GEOGEBRA;
 				\item Referencial: Aprendizagem Baseada em Problemas (ABP); Registros de Representação Semiótica de Raymond Duval e aplicação no GeoGebra;
 				\item Local: Universidade do Estado do Amazonas - Ago/26
@@ -375,10 +393,16 @@ Prof. Rivas\inst{1} \and Joao Victor\inst{2} \and Jamily Lima\inst{3}}
 \begin{frame}{Referências}
 	\begin{thebibliography}{99}
 		\justifying
-		
-		\bibitem{dolce} DOLCE, O.; POMPEO, J. N. Fundamentos...
-		
+		\small
+		\bibitem{dolce} DOLCE, O.; POMPEO, J. N. Fundamentos de Matemática Elementar 9 - 9. ed. - São Paulo: Atual, 2013. 
+		\bibitem{OBMEP} Clubes de Matemática da OBMEP. Probleminha: Quem andou mais?. Disponivel em \href{https://clubes.obmep.org.br/blog/problema-quem-andou-mais/}{Desafio 1} 
+		\bibitem{OBMEP} Clubes de Matemática da OBMEP. Probleminha: Brincando com lápis. Disponivel em: \href{https://clubes.obmep.org.br/blog/probleminha-brincando-com-lapis/}{Desafio 2} 
+		\bibitem{OBMEP} Clubes de Matemática da OBMEP. Probleminha: Brincando com lápis. Disponivel em: \href{https://clubes.obmep.org.br/blog/problema-de-gincana-isso-nao-e-perimetro/}{Desafio 3} 
+		\bibitem{ELITE} Elite Colégio e Pré-Vestibular Campinas. Unicamp 2024 - 1ª fase. Disponivel em: \href{https://sisq.elitecampinas.com.br/GabaritoVestibulares/VisualizarQuestao?id_questao_tipo=10200}{Desafio 4} 
+		\bibitem{OBMEP} Clubes de Matemática da OBMEP. Probleminha: Problemão: Probabilidade com macarrão. Disponivel em: \href{https://clubes.obmep.org.br/blog/problemao-probabilidade-com-macarrao/}{Desafio 5}
+	
 	\end{thebibliography}
 \end{frame}
+
 
 \end{document}

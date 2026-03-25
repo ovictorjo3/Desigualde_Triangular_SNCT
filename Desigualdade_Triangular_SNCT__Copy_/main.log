@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  24 MAR 2026 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.1.5)  24 MAR 2026 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,12 +771,45 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
 (LaTeX)        option "xcdraw".
 
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen298
+\captionmargin=\dimen299
+\caption@leftmargin=\dimen300
+\caption@rightmargin=\dimen301
+\caption@width=\dimen302
+\caption@indent=\dimen303
+\caption@parindent=\dimen304
+\caption@hangindent=\dimen305
+Package caption Info: beamer document class detected.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count348
+\c@continuedfloat=\count349
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count350
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count351
+)
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count348
+\lrq@indent=\count352
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -784,49 +817,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count349
-\c@listtotal=\count350
-\c@listcount=\count351
-\c@liststart=\count352
-\c@liststop=\count353
-\c@citecount=\count354
-\c@citetotal=\count355
-\c@multicitecount=\count356
-\c@multicitetotal=\count357
-\c@instcount=\count358
-\c@maxnames=\count359
-\c@minnames=\count360
-\c@maxitems=\count361
-\c@minitems=\count362
-\c@citecounter=\count363
-\c@maxcitecounter=\count364
-\c@savedcitecounter=\count365
-\c@uniquelist=\count366
-\c@uniquename=\count367
-\c@refsection=\count368
-\c@refsegment=\count369
-\c@maxextratitle=\count370
-\c@maxextratitleyear=\count371
-\c@maxextraname=\count372
-\c@maxextradate=\count373
-\c@maxextraalpha=\count374
-\c@abbrvpenalty=\count375
-\c@highnamepenalty=\count376
-\c@lownamepenalty=\count377
-\c@maxparens=\count378
-\c@parenlevel=\count379
-\blx@tempcnta=\count380
-\blx@tempcntb=\count381
-\blx@tempcntc=\count382
-\c@blx@maxsection=\count383
-\blx@maxsegment@0=\count384
-\blx@notetype=\count385
-\blx@parenlevel@text=\count386
-\blx@parenlevel@foot=\count387
-\blx@sectionciteorder@0=\count388
-\blx@sectionciteorderinternal@0=\count389
-\blx@entrysetcounter=\count390
-\blx@biblioinstance=\count391
+\c@tabx@nest=\count353
+\c@listtotal=\count354
+\c@listcount=\count355
+\c@liststart=\count356
+\c@liststop=\count357
+\c@citecount=\count358
+\c@citetotal=\count359
+\c@multicitecount=\count360
+\c@multicitetotal=\count361
+\c@instcount=\count362
+\c@maxnames=\count363
+\c@minnames=\count364
+\c@maxitems=\count365
+\c@minitems=\count366
+\c@citecounter=\count367
+\c@maxcitecounter=\count368
+\c@savedcitecounter=\count369
+\c@uniquelist=\count370
+\c@uniquename=\count371
+\c@refsection=\count372
+\c@refsegment=\count373
+\c@maxextratitle=\count374
+\c@maxextratitleyear=\count375
+\c@maxextraname=\count376
+\c@maxextradate=\count377
+\c@maxextraalpha=\count378
+\c@abbrvpenalty=\count379
+\c@highnamepenalty=\count380
+\c@lownamepenalty=\count381
+\c@maxparens=\count382
+\c@parenlevel=\count383
+\blx@tempcnta=\count384
+\blx@tempcntb=\count385
+\blx@tempcntc=\count386
+\c@blx@maxsection=\count387
+\blx@maxsegment@0=\count388
+\blx@notetype=\count389
+\blx@parenlevel@text=\count390
+\blx@parenlevel@foot=\count391
+\blx@sectionciteorder@0=\count392
+\blx@sectionciteorderinternal@0=\count393
+\blx@entrysetcounter=\count394
+\blx@biblioinstance=\count395
 \labelnumberwidth=\skip83
 \labelalphawidth=\skip84
 \biblabelsep=\skip85
@@ -838,9 +871,9 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language11
-\c@mincomprange=\count392
-\c@maxcomprange=\count393
-\c@mincompwidth=\count394
+\c@mincomprange=\count396
+\c@maxcomprange=\count397
+\c@mincompwidth=\count398
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -851,74 +884,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count395
-\c@savedafterword=\count396
-\c@annotator=\count397
-\c@savedannotator=\count398
-\c@author=\count399
-\c@savedauthor=\count400
-\c@bookauthor=\count401
-\c@savedbookauthor=\count402
-\c@commentator=\count403
-\c@savedcommentator=\count404
-\c@editor=\count405
-\c@savededitor=\count406
-\c@editora=\count407
-\c@savededitora=\count408
-\c@editorb=\count409
-\c@savededitorb=\count410
-\c@editorc=\count411
-\c@savededitorc=\count412
-\c@foreword=\count413
-\c@savedforeword=\count414
-\c@holder=\count415
-\c@savedholder=\count416
-\c@introduction=\count417
-\c@savedintroduction=\count418
-\c@namea=\count419
-\c@savednamea=\count420
-\c@nameb=\count421
-\c@savednameb=\count422
-\c@namec=\count423
-\c@savednamec=\count424
-\c@translator=\count425
-\c@savedtranslator=\count426
-\c@shortauthor=\count427
-\c@savedshortauthor=\count428
-\c@shorteditor=\count429
-\c@savedshorteditor=\count430
-\c@labelname=\count431
-\c@savedlabelname=\count432
-\c@institution=\count433
-\c@savedinstitution=\count434
-\c@lista=\count435
-\c@savedlista=\count436
-\c@listb=\count437
-\c@savedlistb=\count438
-\c@listc=\count439
-\c@savedlistc=\count440
-\c@listd=\count441
-\c@savedlistd=\count442
-\c@liste=\count443
-\c@savedliste=\count444
-\c@listf=\count445
-\c@savedlistf=\count446
-\c@location=\count447
-\c@savedlocation=\count448
-\c@organization=\count449
-\c@savedorganization=\count450
-\c@origlocation=\count451
-\c@savedoriglocation=\count452
-\c@origpublisher=\count453
-\c@savedorigpublisher=\count454
-\c@publisher=\count455
-\c@savedpublisher=\count456
-\c@language=\count457
-\c@savedlanguage=\count458
-\c@origlanguage=\count459
-\c@savedoriglanguage=\count460
-\c@pageref=\count461
-\c@savedpageref=\count462
+\c@afterword=\count399
+\c@savedafterword=\count400
+\c@annotator=\count401
+\c@savedannotator=\count402
+\c@author=\count403
+\c@savedauthor=\count404
+\c@bookauthor=\count405
+\c@savedbookauthor=\count406
+\c@commentator=\count407
+\c@savedcommentator=\count408
+\c@editor=\count409
+\c@savededitor=\count410
+\c@editora=\count411
+\c@savededitora=\count412
+\c@editorb=\count413
+\c@savededitorb=\count414
+\c@editorc=\count415
+\c@savededitorc=\count416
+\c@foreword=\count417
+\c@savedforeword=\count418
+\c@holder=\count419
+\c@savedholder=\count420
+\c@introduction=\count421
+\c@savedintroduction=\count422
+\c@namea=\count423
+\c@savednamea=\count424
+\c@nameb=\count425
+\c@savednameb=\count426
+\c@namec=\count427
+\c@savednamec=\count428
+\c@translator=\count429
+\c@savedtranslator=\count430
+\c@shortauthor=\count431
+\c@savedshortauthor=\count432
+\c@shorteditor=\count433
+\c@savedshorteditor=\count434
+\c@labelname=\count435
+\c@savedlabelname=\count436
+\c@institution=\count437
+\c@savedinstitution=\count438
+\c@lista=\count439
+\c@savedlista=\count440
+\c@listb=\count441
+\c@savedlistb=\count442
+\c@listc=\count443
+\c@savedlistc=\count444
+\c@listd=\count445
+\c@savedlistd=\count446
+\c@liste=\count447
+\c@savedliste=\count448
+\c@listf=\count449
+\c@savedlistf=\count450
+\c@location=\count451
+\c@savedlocation=\count452
+\c@organization=\count453
+\c@savedorganization=\count454
+\c@origlocation=\count455
+\c@savedoriglocation=\count456
+\c@origpublisher=\count457
+\c@savedorigpublisher=\count458
+\c@publisher=\count459
+\c@savedpublisher=\count460
+\c@language=\count461
+\c@savedlanguage=\count462
+\c@origlanguage=\count463
+\c@savedoriglanguage=\count464
+\c@pageref=\count465
+\c@savedpageref=\count466
 \shorthandwidth=\skip91
 \shortjournalwidth=\skip92
 \shortserieswidth=\skip93
@@ -944,19 +977,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count463
-\c@textcitetotal=\count464
-\c@textcitemaxnames=\count465
-\c@biburlbigbreakpenalty=\count466
-\c@biburlbreakpenalty=\count467
-\c@biburlnumpenalty=\count468
-\c@biburlucpenalty=\count469
-\c@biburllcpenalty=\count470
+\c@textcitecount=\count467
+\c@textcitetotal=\count468
+\c@textcitemaxnames=\count469
+\c@biburlbigbreakpenalty=\count470
+\c@biburlbreakpenalty=\count471
+\c@biburlnumpenalty=\count472
+\c@biburlucpenalty=\count473
+\c@biburllcpenalty=\count474
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count471
+\c@smartand=\count475
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -968,8 +1001,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count472
-\c@bbx:relatedtotal=\count473
+\c@bbx:relatedcount=\count476
+\c@bbx:relatedtotal=\count477
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -1001,7 +1034,7 @@ Package: expl3 2025-01-18 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count474
+\l__color_backend_stack_int=\count478
 \l__pdf_internal_box=\box79
 ))
 Package biblatex Info: ... and expl3
@@ -1019,8 +1052,8 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count475
-\@quotereset=\count476
+\@quotelevel=\count479
+\@quotereset=\count480
 (./main.aux)
 \openout1 = `main.aux'.
 
@@ -1079,16 +1112,16 @@ LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count477
-\scratchdimen=\dimen298
+\scratchcounter=\count481
+\scratchdimen=\dimen306
 \scratchbox=\box80
-\nofMPsegments=\count478
-\nofMParguments=\count479
+\nofMPsegments=\count482
+\nofMParguments=\count483
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count480
-\MPscratchDim=\dimen299
-\MPnumerator=\count481
-\makeMPintoPDFobject=\count482
+\MPscratchCnt=\count484
+\MPscratchDim=\dimen307
+\MPnumerator=\count485
+\makeMPintoPDFobject=\count486
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1187,6 +1220,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'brazil'...
 Package biblatex Info: ... file 'brazil.lbx' found.
 
@@ -1372,46 +1407,61 @@ Overfull \vbox (3.46672pt too high) detected at line 316
 [22
 
  <./imagens/macarrao_rmvbg.png>]
+<imagens/macarrao.jpg, id=467, 328.97906pt x 73.77562pt>
+File: imagens/macarrao.jpg Graphic file (type jpg)
+<use imagens/macarrao.jpg>
+Package pdftex.def Info: imagens/macarrao.jpg  used on input line 334.
+(pdftex.def)             Requested size: 153.31198pt x 34.38184pt.
+<imagens/grafico.jpg, id=468, 277.78781pt x 218.31563pt>
+File: imagens/grafico.jpg Graphic file (type jpg)
+<use imagens/grafico.jpg>
+Package pdftex.def Info: imagens/grafico.jpg  used on input line 334.
+(pdftex.def)             Requested size: 153.31198pt x 120.49036pt.
+
 
 [23
 
+ <./imagens/macarrao.jpg> <./imagens/grafico.jpg>]
+
+[24
+
 ]
-<imagens/distribuicao_lados_triangulos.png, id=488, 1075.8594pt x 304.9794pt>
+<imagens/distribuicao_lados_triangulos.png, id=498, 1075.8594pt x 304.9794pt>
 File: imagens/distribuicao_lados_triangulos.png Graphic file (type png)
 <use imagens/distribuicao_lados_triangulos.png>
 Package pdftex.def Info: imagens/distribuicao_lados_triangulos.png  used on inp
-ut line 336.
+ut line 354.
 (pdftex.def)             Requested size: 344.28204pt x 97.5954pt.
 
-Overfull \hbox (3.58644pt too wide) detected at line 336
+Overfull \hbox (3.58644pt too wide) detected at line 354
 []
  []
 
 
 
-[24
+[25
 
  <./imagens/distribuicao_lados_triangulos.png>]
 
-[25
+[26
 
 ]
-<imagens/conenort.png, id=529, 1024.82875pt x 548.0475pt>
+<imagens/conenort.png, id=539, 1024.82875pt x 548.0475pt>
 File: imagens/conenort.png Graphic file (type png)
 <use imagens/conenort.png>
-Package pdftex.def Info: imagens/conenort.png  used on input line 354.
+Package pdftex.def Info: imagens/conenort.png  used on input line 372.
 (pdftex.def)             Requested size: 307.45099pt x 164.41551pt.
 
 
-[26
+[27
 
  <./imagens/conenort.png>]
 
-[27
+[28
 
 ]
 
-[28
+[29
 
 ]
 \tf@nav=\write7
@@ -1444,11 +1494,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30798 strings out of 475044
- 601528 string characters out of 5763162
- 1395485 words of memory out of 5000000
- 53187 multiletter control sequences out of 15000+600000
- 583493 words of font info for 96 fonts, out of 8000000 for 9000
+ 32297 strings out of 475044
+ 631046 string characters out of 5763162
+ 1413999 words of memory out of 5000000
+ 54668 multiletter control sequences out of 15000+600000
+ 583838 words of font info for 97 fonts, out of 8000000 for 9000
  83 hyphenation exceptions out of 8191
  128i,15n,123p,693b,2219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
@@ -1457,21 +1507,22 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfsi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfso120
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfss1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfsx1440.pfb>
-Output written on main.pdf (28 pages, 1694915 bytes).
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfsi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfso1200.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfss1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfsx1440.pfb>
+Output written on main.pdf (29 pages, 1733947 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 65 named destinations out of 1000 (max. 500000)
- 1047 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 705 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 1057 words of extra memory for PDF output out of 10000 (max. 10000000)
 
